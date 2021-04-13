@@ -1,0 +1,28 @@
+API URL: <site_url>/create-api-node
+
+Parameter:
+---------------
+
+_format:json
+
+Authorization:
+------------------
+
+Basic Auth -- Drupal username & Password
+
+Headers:
+---------------
+Content-Type: application/json
+
+Body:
+-------------
+{
+    "type":[{"target_id":"page"}],
+    "title":[{"value":"New Content Title"}],
+    "body":[{"value":"Lorem Ipsum"}],
+    "field_tags":[{"target_id":8}],
+    "field_publish_date":[{"value":"1744463187"}]
+}
+
+
+
