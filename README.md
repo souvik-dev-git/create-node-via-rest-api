@@ -37,7 +37,7 @@ Note: While installing the module, it will automatically create two fields Tags 
 
 6. I have used “POSTMAN” Rest Client to run the api. Below are the configuration for the Rest Client
 
-API URL: <site_name>/create-api-node
+# API URL: <site_name>/create-api-node
 
 Set the method to “POST”
 
